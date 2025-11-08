@@ -107,12 +107,7 @@ connectDB();
 
 
 const redis_client = createClient({
-    username: 'default',
-    password: process.env.REDIS_PASS,
-    socket: {
-        host: process.env.REDIS_URL,
-        port: 16921
-    }
+
 });
 
   // >>> bar
